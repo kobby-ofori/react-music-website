@@ -1,0 +1,19 @@
+.gallery-container{
+  margin-top: 30px;
+}
+.gallery-card1{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: rgba(245, 222, 179, 0.521);
+  margin-bottom: 20px;
+}
+.gallery-card2{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(245, 222, 179, 0.521);
+}

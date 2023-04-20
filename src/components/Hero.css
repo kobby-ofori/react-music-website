@@ -1,0 +1,39 @@
+.hero-bg{
+  background-image: url(../images/guitar1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.hero-caption{
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 12%;
+}
+
+.h1-pic{
+  opacity: 70%;
+}
+
+.hero-caption p{
+  padding: 0px 30%;
+}
+
+.hero-caption button{
+  padding: 0px 5px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.style-x{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-bg{
+    background-image: url(../images/guitar1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+  }
+}

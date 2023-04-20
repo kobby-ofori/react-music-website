@@ -1,0 +1,26 @@
+.custom-contol-nav{
+  display: flex;
+  justify-content: right;
+}
+
+.bt-m{
+  padding-right: 60px;
+}
+
+.bt-m .bottom-middle{
+  padding: 5px 15px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin: 0px 10px;
+}
+
+.bt-r{
+  padding-left: 60px;
+}
+
+.bt-r .bottom-right{
+  padding: 5px 15px;
+  cursor: pointer;
+  border: 1px solid rgba(rgba(255, 0, 0, 0.644), rgba(0, 128, 0, 0.548), rgba(0, 89, 255, 0.74), 0.1);
+  margin: 0px 10px;
+}
