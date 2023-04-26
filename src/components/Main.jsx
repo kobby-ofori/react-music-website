@@ -2,7 +2,15 @@ import React from "react";
 import "./Main.css";
 import dj from "../images/dj.jpg";
 import microphone from "../images/microphone.jpg";
-import mink from "../images/mink.jpg"
+import mink from "../images/mink.jpg";
+import adele from "../images/adele.jpg";
+import duaLipa from "../images/duaLipa.jpg";
+import sarkodiePic2 from "../images/sarkodiePic2.jpg";
+import daxRapper from "../images/daxRapper.jpg";
+import roddyRicch from "../images/roddyRicch.jpg";
+import burnaBoy from "../images/burnaBoy.jpg";
+import wizkid from "../images/wizkid.jpg";
+import davido from "../images/davido.jpg";
 
 const Main = () => {
   return (
@@ -16,44 +24,60 @@ const Main = () => {
       <div className="row">
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={sarkodiePic2}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Sarkodie</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={wizkid}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Wizkid</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={roddyRicch}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Roddy Ricch</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={adele}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Adele</em></strong>
               </p>
             </div>
           </div>
@@ -63,44 +87,60 @@ const Main = () => {
       <div className="row">
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={burnaBoy}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Burna Boy</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={davido}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Davido</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={daxRapper}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <strong><em>Dax</em></strong>
               </p>
             </div>
           </div>
         </div>
         <div className="col">
           <div class="card" style={{ width: "18rem" }}>
-            <img src="..." class="card-img-top" alt="..." />
+            <img
+              src={duaLipa}
+              class="card-img-top"
+              alt="..."
+              style={{ height: "185px" }}
+            />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <strong><em>Dua Lipa</em></strong>
               </p>
             </div>
           </div>

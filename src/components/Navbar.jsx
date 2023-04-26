@@ -1,11 +1,15 @@
 import "./Navbar.css";
 import React from "react";
+import headphones from "../images/headphones.png";
 
 const Navbar = () => {
   return (
-    <nav id="navbar" className="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+    <nav
+      id="navbar"
+      className="navbar navbar-expand-lg navbar-dark fixed-top custom-nav"
+    >
       <a className="navbar-brand" href="#">
-        Navbar
+        <img src={headphones} alt="" width={32}/>
       </a>
       <button
         className="navbar-toggler"
@@ -70,7 +74,7 @@ const Navbar = () => {
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link disabled">Disabled</a>
+            <a className="nav-link disabled">Playlists</a>
           </li>
         </ul>
         <form className="form-inline my-2 my-lg-0">
@@ -80,7 +84,10 @@ const Navbar = () => {
             placeholder="Search"
             aria-label="Search"
           />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <button
+            className="btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+          >
             Search
           </button>
         </form>

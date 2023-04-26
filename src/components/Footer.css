@@ -1,8 +1,18 @@
 .footer-container {
   padding: 15px;
   margin-top: 35px;
-  margin-bottom: 75px;
+  margin-bottom: 55px;
 }
 .horizontal-row {
   border: 1px dotted brown;
+}
+
+.footer-head{
+  color: bisque;
+}
+.footer-list{
+  color: rgba(245, 245, 220, 0.548);
+}
+.footer-connect{
+  color: rgba(255, 228, 196, 0.726);
 }

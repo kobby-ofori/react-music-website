@@ -7,7 +7,10 @@ const Hero = () => {
   return (
     <div className="container-fuid hero-bg">
       <div className="hero-caption">
-        <h1><img src={musicpodsmall} className="h1-pic" alt="" width={50}/>Feel The Beat</h1>
+        <h1 style={{ color: "limegreen" }}>
+          <img src={musicpodsmall} className="h1-pic" alt="" width={50} />
+          Feel The Beat
+        </h1>
         <h3>Listen To The Best Sounds</h3>
         <p>
           Pamper your ears with the best sounds, explore, stream, share & listen
